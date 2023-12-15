@@ -1,6 +1,8 @@
 import 'package:client_project/SignIn.dart';
 import 'package:client_project/SignUp.dart';
 import 'package:client_project/UserDashboardView.dart';
+import 'package:client_project/exam.dart';
+import 'package:client_project/result.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget{
       theme: ThemeData(
           primarySwatch: Colors.amber,
       ),
-      home: UserDashboardView(),
+      home: const Exam(),
     );
   }
 
