@@ -37,11 +37,11 @@ class _SignInState extends State<SignIn>{
                   width: 130,
                 ),
               ),
-              SizedBox(height: 50),
+              const SizedBox(height: 50),
               TextFormField(
                 keyboardType: TextInputType.emailAddress,
                 controller: emailController,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   labelText: "Email",
                   border: OutlineInputBorder(),
                   prefixIcon: Icon(Icons.email),
